@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+            "@components/*": ["components/*"],
+            "@api/*": ["api/*"],
+            "@pages/*": ["pages/*"],
+            "@const/*": ["const/*"],
+            "@store/*": ["store/*"],
+            "@router/*": ["router/*"],
+            "@utils/*": ["utils/*"],
+            "@services/*": ["services/*"]
+        },
+        "jsx": "react-jsx",
+        "module": "esnext",
+        "target": "es6",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "noEmit": true,
+        "checkJs": true
+    },
+    "include": ["src"]
+}
